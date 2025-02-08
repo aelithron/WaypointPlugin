@@ -1,0 +1,8 @@
+name: Waypoints
+version: '1.0-SNAPSHOT'
+main: com.croissant.waypoints.Waypoints
+api-version: '1.21'
+prefix: Waypoints
+authors: [ Aelithron, StarOkami, ExoticButtersfly ]
+description: A custom waypoints plugin, designed for the Not-yet-named Server,
+website: glthub.com/aelithron/WaypointPlugin
