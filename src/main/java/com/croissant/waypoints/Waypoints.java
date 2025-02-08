@@ -6,8 +6,11 @@ public final class Waypoints extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new WaypointListener(this), this);
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+        CoreTools.getInstance().setPlugin(this); // Extra initialization
+        CoreTools.getInstance().checkForUpdates();
     }
 
     @Override
