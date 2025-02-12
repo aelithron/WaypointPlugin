@@ -15,10 +15,13 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven("https://repo.nexomc.com/releases")
 }
+
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("com.nexomc:nexo:0.7.0")
 }
 
 def targetJavaVersion = 21
