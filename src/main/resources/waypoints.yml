@@ -1,0 +1,11 @@
+# (waypoint id):
+#   coordinates:
+
+# id:
+#   coordinates:
+#    x: 1
+#    y: 1
+#    z: 1
+#    world: "world"
+#  players:
+#   - "(uuid)"
