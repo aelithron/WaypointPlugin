@@ -8,5 +8,10 @@ public class WaypointListener implements Listener {
         this.plugin = plugin;
     }
 
-
+    @EventHandler
+    public void waypointsPlace(BlockPlaceEvent e) {
+    e.getPlayer().sendMessage("Block place successful :)");
+    plugin.waypointStore.set()
+    
+    }
 }
