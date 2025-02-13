@@ -1,11 +1,12 @@
-# (waypoint id):
-#   coordinates:
+# Data storage file, know what you are doing before editing this!
 
+# Format:
 # id:
 #   coordinates:
-#    x: 1
-#    y: 1
-#    z: 1
-#    world: "world"
+#    x: (x)
+#    y: (y)
+#    z: (z)
+#    world: "(world)"
 #  players:
+#   - "(uuid)"
 #   - "(uuid)"
